@@ -1,0 +1,192 @@
+* {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.talen {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 2vw;
+    top: 0;
+    color: white;
+    padding-left: 1vw;
+}
+
+.talen a {
+    color: white;
+}
+
+.talen a:hover {
+    color: white;
+}
+
+
+
+#websiteBanner {
+    position: fixed;
+    top: 0;
+    width: 99vw;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+nav{
+    width: 99vw;
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 8vw;
+}
+
+.nav_ul {
+    z-index: 1;
+    top: 10vh;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav-li {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-weight: bold; 
+    width: 15vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 4vw;
+    align-items: top;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#nav-li-link{
+    text-decoration: none;
+    color: white;
+}
+
+#nav-li-link:visited {
+    color: white;
+}
+
+#nav-li-projects {
+    cursor: pointer;
+}
+
+#nav-li-about-me {
+    cursor: pointer;
+}
+
+#nav-li-about-me_en {
+    cursor: pointer;
+}
+
+main {
+    width: 99vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.main-div {
+    position: absolute;
+    border: 4px solid grey;
+    top: 30vh;
+    width: 90vw;
+    height: 61vh;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+.main-div-span-1 {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+}
+
+.project-span {
+    margin: 10px;
+    padding: 2px;
+    border: 2px solid rgb(1, 82, 1);
+}
+
+#project-img {
+    width: 380px;
+    height: 180px;
+}
+
+footer {
+    width: 99vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-about {
+    color: grey;
+    top: 30vh;
+    width: 89vw;
+    height: 60vh;
+    padding-left: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+#language-ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+}
+
+#book-img {
+    width: 150px;
+    height: 200px;
+    margin: 5px;
+ }
+
+ #books-ul {
+    display: flex;
+    justify-content: left;
+ }
+
+@media only screen and (max-width: 1145px) {
+    .nav-li {
+        display: flex;
+        color: grey;
+        font-size: 25px;
+        font-weight: bold; 
+        width: 15vw;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 1);
+        height: 4vw;
+        align-items: top;
+        justify-content: center;
+        cursor: pointer;
+    }
+    #nav-li-link{
+        text-decoration: none;
+        color: grey;
+    }
+    
+    #nav-li-link:visited {
+        color: grey;
+    }
+}
