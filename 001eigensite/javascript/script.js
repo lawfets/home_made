@@ -1,7 +1,10 @@
 const projectSpans = document.querySelector("#main-div");
 const aboutMeDiv    = document.querySelector("#main-div");
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d52d7a5afbb47aef647101aceacb100ef991b15a
 // projects 
 document.querySelectorAll(".nav-li-projects").forEach(label => {
     label.addEventListener('click', () => {
@@ -15,6 +18,7 @@ document.querySelectorAll(".nav-li-projects").forEach(label => {
 }); 
 document.querySelectorAll("#nav-li-about-me").forEach(label => {
     label.addEventListener('click', () => {
+<<<<<<< HEAD
         aboutMeDiv.innerHTML = "<div class=\"main-about\"><p id=\"aboutme\">Hallo, ik ben Stefaan Walleghem, een oude student."
         + "<br>Ik woon in België."
         + "<br>Ik ben een ex-netwerk administrator en pc-technicus."
@@ -40,6 +44,8 @@ document.querySelectorAll("#nav-li-about-me").forEach(label => {
 })
 document.querySelectorAll("#nav-li-about-me_en").forEach(label => {
     label.addEventListener('click', () => {
+=======
+>>>>>>> d52d7a5afbb47aef647101aceacb100ef991b15a
         aboutMeDiv.innerHTML = "<div class=\"main-about\"><p id=\"aboutme\">Hello, I'm Stefaan Walleghem, a passionate learner."
         + "<br />I live in Belgium."
         + "<br />I'm an ex network administrator and pc-technician."
@@ -67,3 +73,7 @@ document.querySelectorAll("#nav-li-about-me_en").forEach(label => {
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d52d7a5afbb47aef647101aceacb100ef991b15a

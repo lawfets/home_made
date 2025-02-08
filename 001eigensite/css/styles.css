@@ -5,6 +5,7 @@
     font-style: normal;
 }
 
+<<<<<<< HEAD
 .talen {
     display: flex;
     flex-direction: row;
@@ -25,6 +26,8 @@
 
 
 
+=======
+>>>>>>> d52d7a5afbb47aef647101aceacb100ef991b15a
 #websiteBanner {
     position: fixed;
     top: 0;
@@ -33,7 +36,11 @@
     z-index: -1;
 }
 
+<<<<<<< HEAD
 nav{
+=======
+navbar{
+>>>>>>> d52d7a5afbb47aef647101aceacb100ef991b15a
     width: 99vw;
 
     position: absolute;
@@ -42,9 +49,14 @@ nav{
     top: 8vw;
 }
 
+<<<<<<< HEAD
 .nav_ul {
     z-index: 1;
     top: 10vh;
+=======
+nav {
+    z-index: 1;
+>>>>>>> d52d7a5afbb47aef647101aceacb100ef991b15a
 }
 ul {
     display: flex;
@@ -87,10 +99,13 @@ ul {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 #nav-li-about-me_en {
     cursor: pointer;
 }
 
+=======
+>>>>>>> d52d7a5afbb47aef647101aceacb100ef991b15a
 main {
     width: 99vw;
     height: 80vh;
