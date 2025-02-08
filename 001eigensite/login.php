@@ -1,8 +1,8 @@
 <?php
     $host = 'localhost';
-    $data = 'blog_lawfets';
-    $user = 'root';
-    $pass = '';
+    $data = 'database_name'; // have to adapt to real world scenario
+    $user = 'whatever your username is';  // have to adapt to real world scenario
+    $pass = 'whatever your password is';  // have to adapt to real world scenario
     $chrs = 'utf8mb4';
     $attr = "mysql:host=$host;dbname=$data;charset=$chrs";
     $opts = [
